@@ -21,3 +21,7 @@
       * EDQM Standard Terms for dose forms and routes and
       * ISO 3166 for countries [this ISO code system can be used for free in «lists» (e.g. value sets) or software].
   * Looking at the availability of other globally usable reference terminologies, in selected cases FHIR-defined terminologies are recommended.
+
+ ## Pages to Read (In Order)
+* [01 Overview](01_Overview.md)
+* [&rarr; 02 IPS Terminologies](02_IPS_Terminologies.md) 
