@@ -3,6 +3,9 @@ Material to help the reader understand the International Patient Summary profile
 
 ## IPS Implementation Guide Training
 The IPS Implementation Guide (IG) refers to the IG that is maintained by HL7 here: https://build.fhir.org/ig/HL7/fhir-ips/.
+This Table of Contents page [https://build.fhir.org/ig/HL7/fhir-ips/toc.html]() is most helpful to find specific detail/content.
+
+
 There is a separate specification for the CDA implementation that is defined here: https://art-decor.org/art-decor/decor-project--hl7ips-
 
 Use the README.md files in these folders to guide you through the training:
