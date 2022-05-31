@@ -20,7 +20,10 @@ We are looking at the general structure of a FHIR bundle and the components in a
 | identifier   | maria-ips-1         | Has system and identifier |
 | type         | document            | Fixed value |
 | timestamp    | 2021-09-03T08:38:00+02:00 | |
-| entry        | Array of resources  | Composition, Patient, Practitioner, AllergyIntolerance, Condition, Condition, Condition, MedicationStatement, |
+| entry        | Array of resources  | Composition, Patient, Practitioner, AllergyIntolerance, Condition (3x), MedicationStatement (3x), Medication (3x) |
+
+* The MedicationStatement resources are referenced by entries in the Composition.
+* In turn, the MedicationStatement resources will reference the Medication resources.
 
 4. Compare the property list to the specification at http://hl7.org/fhir/bundle.html
 5. Validate this file as a Bundle using an online tool.
