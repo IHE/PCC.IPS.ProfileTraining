@@ -22,16 +22,20 @@
   * event
   * section
 4. Open the file samples/EU_Giorgio_Cangioli_01-composition.json. Note these properties at the top level
-  * resourceType (Fixed value)
-  * id (sample id)
-  * status
-  * type
-  * subject
-  * date
-  * author
-  * title
-  * confidentiality
-  * section
+
+| Element         | Value                                         | Comment |
+|-----------------|-----------------------------------------------|-------------------|
+| resourceType    | Composition                                   | Fixed value   |
+| id              | gravitate-maria                               | Hand written identifier |
+| status          | final                                         | |
+| type            | "code": "60591-5"                             | |
+| subject         | urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd5 | Reference |
+| date            | 2018-07-10T15:22:00+02:00                     | |
+| author          | urn:uuid:1ece89c5-fda3-4db9-ace6-decbe6c603d8 | Reference |
+| title           | Patient Summary (Maria Gravitate)             | |
+| confidentiality | N                                             | |
+| section         |                                               | Array of elements|
+
 5. Compare the property list to the specification at http://hl7.org/fhir/composition.html
 6. Validate this file as a Composition using an online tool.
   * https://gazelle.ihe.net/matchbox/#/validate
