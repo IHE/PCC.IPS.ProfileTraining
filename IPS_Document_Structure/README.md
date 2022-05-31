@@ -16,9 +16,8 @@ You will benefit from having an application that can render and possibly edit JS
  * He includes a link to a GitHub repository with sample documents
 
 2. [Matchbox](https://github.com/ahdis/matchbox) "is a FHIR server based on the hapifhir/hapi-fhir-jpaserver-starter"
- * We will use this to validate resources throughout this
- * GitHub repository: s a FHIR server based on the hapifhir/hapi-fhir-jpaserver-starter
- * Online server for exercises:
+ * We will use this to validate resources throughout this GitHub repository
+ * Online server for exercises: https://gazelle.ihe.net/matchbox/#/validate
 
 ## Pages to Read (In Order)
 * [&rarr; FHIR Bundle](01_FHIR_Bundle.md)
