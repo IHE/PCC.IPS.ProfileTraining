@@ -8,5 +8,5 @@
 
 This module has notes on individual resources. Please read the article on Must Support first. You can read the other articles based on your interest in specific resources.
 
-* [MustSupport.md]()
-* [Immunization.md]()
+* [MustSupport.md](MustSupport.md)
+* [Immunization.md](Immunization.md)

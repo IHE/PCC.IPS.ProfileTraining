@@ -8,12 +8,16 @@
   * link
   * entry
 3. Open the file [../samples/EU_Giorgio_Cangioli_01.json](../samples/EU_Giorgio_Cangioli_01.json). Note these properties at the top level
-  * resourceType (Fixed value)
-  * id (sample id)
-  * identifier
-  * type (Fixed value)
-  * timestamp
-  * entry
+
+|  Element     | Value               |   Notes  |
+|--------------|---------------------|----|
+| resourceType | Bundle              | Fixed Value |
+| id           | gravitate-maria     | Human written, not generated |
+| identifier   | maria-ips-1         | Has system and identifier |
+| type         | document            | Fixed value |
+| timestamp    | 2021-09-03T08:38:00+02:00 | |
+| entry        | Array of resources  | Composition, Patient, Practitioner, AllergyIntolerance, Condition, Condition, Condition, MedicationStatement, |
+
 4. Compare the property list to the specification at http://hl7.org/fhir/bundle.html
 5. Validate this file as a Bundle using an online tool.
   * https://gazelle.ihe.net/matchbox/#/validate
